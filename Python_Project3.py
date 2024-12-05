@@ -1,3 +1,36 @@
+"""What You're Aiming For
+
+The Interactive Python Quiz Game is a text-based application that presents a series of multiple-choice questions to the user. The game provides instant feedback on each answer and keeps track of the user's score throughout the quiz. This project can be further enhanced with additional features such as random question order, a timer for each question, high score tracking, and a graphical user interface (GUI) using libraries like tkinter.
+
+Note: This checkpoint is optional.
+
+
+Instructions
+
+Question and Answer Handling:
+
+Display multiple-choice questions to the user.
+Capture and validate user inputs.
+Provide immediate feedback on the correctness of answers.
+Score Tracking:
+
+Keep track of the user's score throughout the quiz.
+Display the final score at the end of the quiz.
+Randomization:
+
+Randomly shuffle the order of questions for each game session to enhance replayability.
+User Interaction:
+
+Simple and intuitive user prompts to navigate through the quiz.
+Optional Enhancements:
+
+Implement a timer for each question to add a time-based challenge.
+Store and display high scores from previous sessions.
+Develop a graphical user interface (GUI) using tkinter for a more interactive experience.
+"""
+
+
+
 from random import shuffle
 
 questions = [{
